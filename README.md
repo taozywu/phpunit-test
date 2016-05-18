@@ -29,6 +29,13 @@ PHPUnit 4.4.0 by Sebastian Bergmann<br>
 
 这里我把我的使用告知下。难免有错误的地方请提出来，感谢！！<br>
 
+强调几点：
+1）大致流程 setup->test××->teardown;<br>
+2）setUp：test测试方法调用前执行，用于初始化测试数据。<br>
+3）tearDown：test测试方法执行结束后运行，用于清理测试公共数据。<br>
+4）provider：phpunit提供@dataProvider标签，则在你的test方法上加上此标签，则数据会自动映射到该标签的方法里面。<br>
+
+
 联系请移步 https://github.com/taozywu/JD<br>
 
 参考文件：ExampleTest.php
