@@ -29,7 +29,7 @@ PHPUnit 4.4.0 by Sebastian Bergmann<br>
 
 这里我把我的使用告知下。难免有错误的地方请提出来，感谢！！<br>
 
-强调几点：
+强调几点：<br>
 1）大致流程 setup->test××->teardown;<br>
 2）setUp：test测试方法调用前执行，用于初始化测试数据。<br>
 3）tearDown：test测试方法执行结束后运行，用于清理测试公共数据。<br>
