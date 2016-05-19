@@ -1,5 +1,6 @@
 # phpunit-test
-test phpunit
+test phpunit<br>
+联系请移步 https://github.com/taozywu/JD<br>
 
 ## What's PHPunit 
 PHPUnit是一个面向PHP程序员的测试框架，这是一个xUnit的体系结构的单元测试框架。
@@ -35,7 +36,5 @@ PHPUnit 4.4.0 by Sebastian Bergmann<br>
 3）tearDown：test测试方法执行结束后运行，用于清理测试公共数据。<br>
 4）provider：phpunit提供@dataProvider标签，则在你的test方法上加上此标签，则数据会自动映射到该标签的方法里面。<br>
 
-
-联系请移步 https://github.com/taozywu/JD<br>
 
 参考文件：ExampleTest.php
